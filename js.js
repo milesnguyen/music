@@ -72,7 +72,7 @@ const app = {
         },
         {
             name: 'Mặt mộc',
-            singer: 'Phạm Nguyên Ngọc VAnh Ân Nhi',
+            singer: 'Phạm Nguyen Ngọc, VAnh',
             path: './mp3/Mat-Moc-Phạm-Nguyen-Ngọc-x-VAnh-x-An-Nhi.mp3',
             image: './img/matmoc.jpg'
         },
@@ -81,6 +81,18 @@ const app = {
             singer: 'Đức Phúc',
             path: './mp3/NgayDauTien-DucPhuc-7129810.mp3',
             image: './img/ngaydautien.jpg'
+        },
+        {
+            name: 'Đứa nào làm em buồn',
+            singer: 'Phúc Du, Hoàng Dũng',
+            path: './mp3/dua nao lam em buon_ - Phuc Du, Hoang Dung - NhacHay360.mp3',
+            image: './img/duanaolamembuon.jpg'
+        },
+        {
+            name: 'Vì mẹ anh bắt chia tay',
+            singer: 'Miu Lê, Karik, Châu Đăng Khoa',
+            path: './mp3/Vi Me Anh Bat Chia Tay - Miu Le, Karik, Chau Dang Khoa - NhacHay360.mp3',
+            image: './img/vimeanhbatchiatay.jpg'
         },
     ],
 
@@ -285,8 +297,8 @@ const app = {
 
         this.render();
 
-        // repeatBtn.classList.toggle('activeBtn', _this.isRepeat);
-        // randomBtn.classList.toggle('activeBtn', _this.isRandom);
+        repeatBtn.classList.toggle('activeBtn', this.isRepeat);
+        randomBtn.classList.toggle('activeBtn', this.isRandom);
     }
 }
 
